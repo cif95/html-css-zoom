@@ -4,6 +4,10 @@
 	padding:0;
 }
 
+body{
+	font-family: sans-serif;
+}
+
 .flex-container{
 	display:flex;
 }
@@ -16,9 +20,23 @@
 	background-color: rgb(34, 34, 34);
 }
 
+.btn{
+	padding:.2rem;
+	margin:.2rem;
+	border-radius:.2rem;
+	font-size:.7rem;
+	background-color: rgb(74, 74, 74)
+}
+
 header.flex-container,
 footer.flex-container{
 	height:10vh;
+	color:white;
+}
+
+header.flex-container{
+	justify-content: flex-end;
+	align-items:flex-start;
 }
 
 main.flex-container{

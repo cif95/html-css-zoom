@@ -75,25 +75,34 @@ main.flex-container div.user div.user-tag{
 	background-color:rgb(98, 110, 123, 0.4);
 }
 
+
 footer.flex-container{
 	font-size:.6rem;
-	justify-content: center;
-	align-items:center;
+	align-items: center;
 	text-align: center;
-	justify-content: space-between;
+	justify-content:space-between;
 }
 
-footer div#left-navbar,
+footer.flex-container div.bar-icon i{
+	font-size:1.2rem;
+	padding:0 0 .3rem .3rem;
+}
+
+footer div.chevron{
+	margin:0 .7rem;
+}
+
+footer div.chevron i{
+	font-size:.4rem;
+}
+
+footer div#left-bar,
 footer nav#center-navbar ul{
 	align-items: center;
 }
 
-footer div.chevron{
-	margin:0 .4rem;
-}
-
-footer div.chevron i{
-	font-size:.3rem;
+footer div#left-bar{
+	padding-left:.3rem;
 }
 
 footer nav#center-navbar ul li{
@@ -102,8 +111,15 @@ footer nav#center-navbar ul li{
 	display: inline-block;
 }
 
-footer i{
-	font-size:1.1rem;
-	padding:.3rem;
+footer div#right-bar{
+	color:red;
+	padding:0 .5rem;
+	align-self: stretch;
+	background-color:rgb(74, 74, 74);
 }
+
+footer div#right-bar p{
+	line-height:51px;
+}
+
 

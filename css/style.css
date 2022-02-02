@@ -30,15 +30,28 @@ body{
 
 header.flex-container,
 footer.flex-container{
-	height:10vh;
+	height:8vh;
 	color:white;
 }
 
 header.flex-container{
-	justify-content: flex-end;
 	align-items:flex-start;
+	justify-content: flex-end;
 }
 
 main.flex-container{
-	height:80vh;
+	height:84vh;
+	width:100vw;
+	padding:0 1rem;
+	flex-wrap:wrap;
+	overflow-y: scroll;
+	justify-content:center;
+}
+
+main.flex-container div.user{
+	height:100px;
+	margin:.3rem .1rem;
+	min-width:180px;
+	flex-basis:180px;
+	background-color: salmon;
 }

@@ -28,6 +28,14 @@ body{
 	background-color: rgb(74, 74, 74)
 }
 
+.active{
+	color:rgb(75, 200, 0);
+}
+
+.grow-1{
+	flex-grow:1;
+}
+
 header.flex-container,
 footer.flex-container{
 	height:8vh;
@@ -66,3 +74,36 @@ main.flex-container div.user div.user-tag{
 	position:absolute;
 	background-color:rgb(98, 110, 123, 0.4);
 }
+
+footer.flex-container{
+	font-size:.6rem;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	justify-content: space-between;
+}
+
+footer div#left-navbar,
+footer nav#center-navbar ul{
+	align-items: center;
+}
+
+footer div.chevron{
+	margin:0 .4rem;
+}
+
+footer div.chevron i{
+	font-size:.3rem;
+}
+
+footer nav#center-navbar ul li{
+	list-style: none;
+	margin-right:.5rem;
+	display: inline-block;
+}
+
+footer i{
+	font-size:1.1rem;
+	padding:.3rem;
+}
+

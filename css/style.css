@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.flex-container{
+	display:flex;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.bg-darkgrey{
+	background-color: rgb(34, 34, 34);
+}
+
+header.flex-container,
+footer.flex-container{
+	height:10vh;
+}
+
+main.flex-container{
+	height:80vh;
+}

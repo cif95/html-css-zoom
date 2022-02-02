@@ -1,7 +1,7 @@
 *{
-	box-sizing: border-box;
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 }
 
 body{
@@ -21,10 +21,10 @@ body{
 }
 
 .btn{
-	padding:.2rem;
 	margin:.2rem;
-	border-radius:.2rem;
+	padding:.2rem;
 	font-size:.7rem;
+	border-radius:.2rem;
 	background-color: rgb(74, 74, 74)
 }
 
@@ -50,8 +50,19 @@ main.flex-container{
 
 main.flex-container div.user{
 	height:100px;
-	margin:.3rem .1rem;
 	min-width:180px;
 	flex-basis:180px;
-	background-color: salmon;
+	position:relative;
+	margin:.3rem .1rem;
+	background-image: url(https://picsum.photos/seed/picsum/180/100);
+}
+
+main.flex-container div.user div.user-tag{
+	left:0;
+	bottom:0;
+	padding:.3rem;
+	font-size:.6rem;
+	color:white;
+	position:absolute;
+	background-color:rgb(98, 110, 123, 0.4);
 }

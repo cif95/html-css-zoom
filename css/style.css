@@ -45,13 +45,10 @@ header.flex-container{
 
 main.flex-container{
 	height:84vh;
-	width:100vw;
-	padding:0 1rem;
 	flex-wrap:wrap;
 	overflow-y: scroll;
 	justify-content:center;
 }
-
 
 main.flex-container div.user{
 	height:100px;
@@ -71,7 +68,6 @@ main.flex-container div.user div.user-tag{
 	position:absolute;
 	background-color:rgb(98, 110, 123, 0.4);
 }
-
 
 footer.flex-container{
 	align-items: center;
@@ -108,7 +104,6 @@ footer div#left-bar div.chevron{
 footer nav#center-navbar ul li{
 	list-style: none;
 	margin-right:.8rem;
-	display: inline-block;
 }
 
 footer div#right-bar{
